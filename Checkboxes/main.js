@@ -4,6 +4,7 @@ let lastChecked;
 
 function handleCheck(e) {
   if (e.shiftKey && this.checked) {
+    let inBetween = false;
     checkboxes.forEach((checkbox) => {
       if (checkbox === this || checkbox === lastChecked) {
         inBetween = !inBetween;
