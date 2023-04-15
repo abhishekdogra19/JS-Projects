@@ -26,7 +26,6 @@ body {
   font-size: 0;
   overflow: hidden;
 }
-
 /* This css is only applied when fullscreen is active. */
 .player:fullscreen {
   max-width: none;
@@ -103,9 +102,7 @@ body {
   flex: 0;
   flex-basis: 50%;
 }
-
 /* unholy css to style input type="range" */
-
 input[type=range] {
   -webkit-appearance: none;
   background: transparent;
