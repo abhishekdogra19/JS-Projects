@@ -24,7 +24,6 @@ function updateRange() {
 }
 
 function skip() {
-  console.log(this.dataset.skip);
   video.currentTime += parseFloat(this.dataset.skip);
   console.log(video.currentTime);
 }
