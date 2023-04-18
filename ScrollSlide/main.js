@@ -28,6 +28,7 @@ function checkSlide(e) {
     } else {
       sliderImg.classList.remove("active");
     }
+    
   });
 }
 window.addEventListener("scroll", debounce(checkSlide));
