@@ -1,5 +1,5 @@
-const spkbtn = document.querySelector(".speak-btn");
-const stpbtn = document.querySelector(".stop-btn");
+const startBtn = document.getElementById("start-btn");
+const stopBtn = document.getElementById("stop-btn");
 function speak() {
   const text = document.getElementById("text").value;
   const msg = new SpeechSynthesisUtterance();
@@ -8,7 +8,6 @@ function speak() {
 }
 function stop() {
   window.speechSynthesis.cancel();
-  console.log("clicked");
 }
-spkbtn.addEventListener("click", speak);
-stpbtn.addEventListener("click", stop);
+startBtn.addEventListener("click", speak);
+stopBtn.addEventListener("click", stop);
