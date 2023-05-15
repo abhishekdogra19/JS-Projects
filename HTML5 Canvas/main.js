@@ -32,7 +32,6 @@ function draw(e) {
     ctx.lineWidth--;
   }
 }
-
 canvas.addEventListener("mousedown", (e) => {
   isDrawing = true;
   [lastX, lastY] = [e.offsetX, e.offsetY];
