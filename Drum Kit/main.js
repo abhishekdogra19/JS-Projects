@@ -16,6 +16,7 @@ function playSound(e) {
 // keys.forEach(function (key) {
 //   key.addEventListener("transitionend", removeTransition);
 // });
+
 window.addEventListener("keydown", playSound);
 window.addEventListener("keyup", function (e) {
   const key = document.querySelector(`.key[data-key = "${e.keyCode}"]`);
