@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+#main {
+  height: 100vh;
+  width: 100%;
+  background-color: #dadada;
+}
+#topScreen {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  /* display: none; */
+  position: absolute;
+}
+#topScreen > h1 {
+  font-size: 120px;
+  position: absolute;
+  right: 5%;
+  overflow: hidden;
+}
+#lowest {
+  top: 70%;
+}
+#second-lowest {
+  top: 50%;
+}
+#second-top {
+  top: 30%;
+}
+#top {
+  top: 10%;
+}
+#random-text {
+  position: absolute;
+  top: 11%;
+  font-size: 28px;
+  font-weight: 100;
+  left: 6%;
+}
+#center {
+  height: 100%;
+  width: 100%;
+  font-size: 22px;
+  padding: 20px 40px;
+}
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+#head1,
+#head2 {
+  font-size: 100px;
+}
+#head1 {
+  margin-top: 50px;
+}
+#image-div {
+  height: 350px;
+  width: 600px;
+  background-image: url("https://images.unsplash.com/photo-1495366691023-cc4eadcc2d7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80");
+  background-size: cover;
+}
